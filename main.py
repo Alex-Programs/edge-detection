@@ -53,7 +53,6 @@ while True:
             cv.drawContours(frame, [polygon], -1, (0, 255, 0), 1)
             continue
 
-        continue
         cv.drawContours(frame, [polygon], -1, (255, 255, 255), -1)
         cv.drawContours(frame, [polygon], -1, (0, 0, 255), 1)
 
